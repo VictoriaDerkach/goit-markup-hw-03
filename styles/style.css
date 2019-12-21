@@ -1,0 +1,53 @@
+:root {
+  --main-color-text: #626262;
+  --link-hover-color: #03a9f4;
+  --image-caption-color: #b4ad9e;
+  --primary-font-stack: 'Playfair Display', serif;
+  --caption-picture-font: 'Ubuntu', sans-serif;
+}
+body {
+  font-family: var(--primary-font-stack);
+  color: var(--main-color-text);
+}
+/* SITE NAV */
+.navigation-item {
+  list-style-type: none;
+}
+.navigation-link {
+  text-decoration: none;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--link-hover-color);
+}
+.navigation-link {
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* SECTION */
+.section-item {
+  list-style-type: none;
+}
+.section-item-title {
+  font-size: 30px;
+  font-weight: 400;
+}
+.section-image {
+  width: 420 px;
+}
+.section-image-caption {
+  font-family: var(--caption-picture-font);
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--image-caption-color);
+}
+.section-paragraf {
+  font-size: 14px;
+  font-weight: 1.7;
+}
+.button {
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: var(--primary-font-stack);
+  color: var(--main-color-text);
+}
